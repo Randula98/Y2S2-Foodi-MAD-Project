@@ -6,8 +6,8 @@ android {
     compileSdk 32
 
     defaultConfig {
-        applicationId "com.example.foodi"
-        minSdk 23
+        applicationId "com.example.mad"
+        minSdk 22
         targetSdk 32
         versionCode 1
         versionName "1.0"

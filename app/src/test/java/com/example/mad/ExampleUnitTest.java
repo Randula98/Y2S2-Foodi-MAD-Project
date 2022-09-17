@@ -1,4 +1,4 @@
-package com.example.foodi;
+package com.example.mad;
 
 import org.junit.Test;
 
