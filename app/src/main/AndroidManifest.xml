@@ -13,12 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MAD"
         tools:targetApi="31">
-        <activity
-            android:name=".Dashboard"
-            android:exported="false" />
-        <activity
-            android:name=".Splash"
-            android:exported="false" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
