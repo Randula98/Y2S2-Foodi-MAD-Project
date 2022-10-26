@@ -1,6 +1,82 @@
 <resources>
+<!--    Common UI-->
     <string name="app_name">MAD</string>
     <string name="comp_name">FOODI</string>
-    <string name ="sign_in">Sign in</string>
+    <string name ="sign_in">Sign In</string>
+    <string name="sign_as_cus">Sign In As A Customer</string>
+    <string name="sign_as_res">Sign In As A Restaurant</string>
     <string name="create_acc">Create An Account</string>
+    <string name="reg">REGISTER</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="reg_as_cus">Register As A Customer</string>
+    <string name="reg_as_res">Register As A Restaurant</string>
+    <string name ="cus_name">Customer Name</string>
+    <string name ="cus_phone">Customer Phone</string>
+    <string name ="cus_email">Customer Email</string>
+    <string name ="upload_profile_pic">Upload Profile Picture</string>
+    <string name ="email">Email</string>
+    <string name ="pass">Password</string>
+    <string name ="enter_pass">Enter Password</string>
+    <string name ="re_enter_pass">Re-Enter Password</string>
+    <string name ="t_and_c">I accept all the terms and conditions</string>
+    <string name ="res_name">Restaurent Name</string>
+    <string name ="res_type">Restaurent Type</string>
+    <string name ="res_loc">Restaurent Location</string>
+    <string name ="res_phone">Restaurent Phone</string>
+    <string name ="res_email">Restaurent Email</string>
+    <string name="button">Button</string>
+    <string name="upload_logo">Upload Restaurent Logo</string>
+
+<!--    Customer, Orders-->
+    <string name="greet">Hello!!! Nick</string>
+    <string name="order">Order Your Favourites</string>
+    <string name="search">Search</string>
+    <string name="special_offers">Special Offers</string>
+    <string name="special_item_name">Nasi-Goreng</string>
+    <string name="special_item_price">Rs. 1100/=</string>
+    <string name="popular_restaurants">Popular Restaurants</string>
+    <string name="pizza_hut">Pizza Hut</string>
+    <string name="dominos">Dominos Pizza</string>
+    <string name="american">American Restaurent</string>
+    <string name="time">30mins-60mins</string>
+    <string name="price">Rs. 900 Upwards</string>
+    <string name="card_payment">Card Payment</string>
+    <string name="card_no">Card Number</string>
+    <string name="card_holder_name">Card Holder\'s Name</string>
+    <string name="card_month">Month</string>
+    <string name="card_Year">Year</string>
+    <string name="card_cVv">CVV</string>
+    <string name="card_checkout">Checkout</string>
+    <string name="cus_dash">Customer Dashboard</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="cur_orders">Current Orders</string>
+    <string name="comp_orders">Completed Orders</string>
+    <string name="total_orders">No Of Total Orders</string>
+    <string name="total_payments">Total Spent Amount</string>
+    <string name="amount_orders">25</string>
+    <string name="amount_payments">Rs. 20320</string>
+    <string name="update_cus">Update Customer Profile</string>
+    <string name="cart">My Cart</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="pizza">Chicken Pizza</string>
+    <string name="mac">Macaroni and Cheese</string>
+    <string name="wings">Chicken Wings</string>
+    <string name="pizza_price">Rs. 1200</string>
+    <string name="mac_price">Rs. 700</string>
+    <string name="wings_price">Rs. 900</string>
+    <string name="order_price">Order Price : Rs. 2600</string>
+    <string name="delivery_price">Order Price : Rs. 362</string>
+    <string name="total_price">Total Price : Rs. 2962</string>
+    <string name="desc">Description</string>
+    <string name="example">lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</string>
+    <string name="weight">Weight : 1.2kg</string>
+    <string name="calories">Calories : 120cal</string>
+    <string name="deliver">Delivery : Rs. 321</string>
+    <string name="small">S</string>
+    <string name="medium">M</string>
+    <string name="large">L</string>
+    <string name="add_cart">Add To Cart</string>
+    <string name="choose_food">Choose the food you love</string>
+
 </resources>
