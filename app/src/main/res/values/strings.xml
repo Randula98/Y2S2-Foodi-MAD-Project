@@ -79,4 +79,40 @@
     <string name="add_cart">Add To Cart</string>
     <string name="choose_food">Choose the food you love</string>
 
+<!--    <string name="app_name">Restaurant-reg</string>-->
+    <string name="add_food">ADD FOOD</string>
+    <string name="name">Name</string>
+    <string name="cat">Category</string>
+    <string name="cal">Calories</string>
+<!--    <string name="price">Price</string>-->
+<!--    <string name="weight">Weight</string>-->
+    <string name="des">Description</string>
+    <string name="img">Image</string>
+    <string name="add_food_btn">ADD FOOD ITEM</string>
+    <string name="res_dash">Restaurant Dashboard</string>
+<!--    <string name="res_name">Pizza Hut</string>-->
+    <string name="text">New Orders Available</string>
+    <string name="view_btn">View</string>
+    <string name="text1">Large Suppreme Pizza - Rs 1200.00</string>
+    <string name="text2">Double layered pizza with roast chicken, beef, pineapple, cheese, onion and olive</string>
+    <string name="text4">BBQ Chicken Pizza - Rs 900.00</string>
+    <string name="text5">BBQ chicken accompanied by spicy jalapenos, onions and cheese</string>
+    <string name="add_item">ADD ITEMS</string>
+    <string name="res_order">NEW ORDERS</string>
+    <string name="txt1">Large Suppreme Pizza</string>
+    <string name="txt2">Large</string>
+    <string name="txt3">1</string>
+    <string name="txt4">Order ID-0012456839</string>
+    <string name="txt5">Rs 1200.00</string>
+    <string name="button1">Approve</string>
+    <string name="button2">Delete</string>
+    <string name="txt6">Chicken Wings</string>
+    <string name="txt7">Medium</string>
+    <string name="txt8">1</string>
+    <string name="txt10">Order ID-0023445789</string>
+    <string name="txt11">Rs 900.00</string>
+    <string name="button3">Set Status</string>
+    <string name="button4">Delete</string>
+    <string name="txt13">Order ID-0023667789</string>
+
 </resources>
