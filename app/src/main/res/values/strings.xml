@@ -90,7 +90,7 @@
     <string name="img">Image</string>
     <string name="add_food_btn">ADD FOOD ITEM</string>
     <string name="res_dash">Restaurant Dashboard</string>
-<!--    <string name="res_name">Pizza Hut</string>-->
+    <string name="res_name_ex">Pizza Hut</string>
     <string name="text">New Orders Available</string>
     <string name="view_btn">View</string>
     <string name="text1">Large Suppreme Pizza - Rs 1200.00</string>
