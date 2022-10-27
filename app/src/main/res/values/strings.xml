@@ -114,5 +114,6 @@
     <string name="button3">Set Status</string>
     <string name="button4">Delete</string>
     <string name="txt13">Order ID-0023667789</string>
+    <string name="edit_food">EDIT FOOD ITEM</string>
 
 </resources>
