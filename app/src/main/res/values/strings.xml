@@ -120,5 +120,15 @@
     <string name="Feedbacks">Feedbacks</string>
     <string name="Pepperoni_Pizza">Pepperoni Pizza</string>
     <string name="Zinger_Burger_with_cheese">Zinger Burger with cheese</string>
+    <string name="Date">Date :</string>
+    <string name="Order_ID">Order ID :</string>
+    <string name="Time">Time :</string>
+    <string name="Total_Prize">Total Prize :</string>
+    <string name="Payment_Method">Payment Method :</string>
+    <string name="Items">Items :</string>
+    <string name="Write_your_Review_hear">Write your Review hear</string>
+    <string name="Track_My_Delivery">Track My Delivery  -></string>
+    <string name="Save">Save</string>
+    <string name="Delivered">Delivered</string>
 
 </resources>
