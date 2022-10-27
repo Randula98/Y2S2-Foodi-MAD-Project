@@ -27,7 +27,6 @@
     <string name="button">Button</string>
     <string name="upload_logo">Upload Restaurant Logo</string>
 
-<!--    Customer, Orders-->
     <string name="greet">Hello!!! Nick</string>
     <string name="order">Order Your Favourites</string>
     <string name="search">Search</string>
@@ -79,13 +78,10 @@
     <string name="add_cart">Add To Cart</string>
     <string name="choose_food">Choose the food you love</string>
 
-<!--    <string name="app_name">Restaurant-reg</string>-->
     <string name="add_food">ADD FOOD</string>
     <string name="name">Name</string>
     <string name="cat">Category</string>
     <string name="cal">Calories</string>
-<!--    <string name="price">Price</string>-->
-<!--    <string name="weight">Weight</string>-->
     <string name="des">Description</string>
     <string name="img">Image</string>
     <string name="add_food_btn">ADD FOOD ITEM</string>
@@ -130,5 +126,7 @@
     <string name="Track_My_Delivery">Track My Delivery  -></string>
     <string name="Save">Save</string>
     <string name="Delivered">Delivered</string>
+
+    <string name="Edit_your_feedback_hear">Edit your feedback hear</string>
 
 </resources>
