@@ -10,5 +10,7 @@
     <color name="btn_orange">#FF7700</color>
     <color name="btn_main">#FD5C29</color>
     <color name="underline">#D8D6D6</color>
+<!--    <color name="black">#FF000000</color>-->
+<!--    <color name="white">#FFFFFFFF</color>-->
 </resources>
 
