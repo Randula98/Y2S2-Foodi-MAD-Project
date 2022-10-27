@@ -19,13 +19,13 @@
     <string name ="enter_pass">Enter Password</string>
     <string name ="re_enter_pass">Re-Enter Password</string>
     <string name ="t_and_c">I accept all the terms and conditions</string>
-    <string name ="res_name">Restaurent Name</string>
-    <string name ="res_type">Restaurent Type</string>
-    <string name ="res_loc">Restaurent Location</string>
-    <string name ="res_phone">Restaurent Phone</string>
-    <string name ="res_email">Restaurent Email</string>
+    <string name ="res_name">Restaurant Name</string>
+    <string name ="res_type">Restaurant Type</string>
+    <string name ="res_loc">Restaurant Location</string>
+    <string name ="res_phone">Restaurant Phone</string>
+    <string name ="res_email">Restaurant Email</string>
     <string name="button">Button</string>
-    <string name="upload_logo">Upload Restaurent Logo</string>
+    <string name="upload_logo">Upload Restaurant Logo</string>
 
 <!--    Customer, Orders-->
     <string name="greet">Hello!!! Nick</string>
@@ -37,7 +37,7 @@
     <string name="popular_restaurants">Popular Restaurants</string>
     <string name="pizza_hut">Pizza Hut</string>
     <string name="dominos">Dominos Pizza</string>
-    <string name="american">American Restaurent</string>
+    <string name="american">American Restaurant</string>
     <string name="time">30mins-60mins</string>
     <string name="price">Rs. 900 Upwards</string>
     <string name="card_payment">Card Payment</string>
@@ -115,5 +115,10 @@
     <string name="button4">Delete</string>
     <string name="txt13">Order ID-0023667789</string>
     <string name="edit_food">EDIT FOOD ITEM</string>
+
+    <string name="Thick_Cut_Fries">Thick Cut Fries</string>
+    <string name="Feedbacks">Feedbacks</string>
+    <string name="Pepperoni_Pizza">Pepperoni Pizza</string>
+    <string name="Zinger_Burger_with_cheese">Zinger Burger with cheese</string>
 
 </resources>
