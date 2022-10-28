@@ -111,6 +111,11 @@
     <string name="button4">Delete</string>
     <string name="txt13">Order ID-0023667789</string>
     <string name="edit_food">EDIT FOOD ITEM</string>
+    <string name="add_book">Address Book</string>
+    <string name="address">Type Your Address</string>
+    <string name="button_x">Label</string>
+    <string name="textView37">Near by You</string>
+
 
     <string name="Thick_Cut_Fries">Thick Cut Fries</string>
     <string name="Feedbacks">Feedbacks</string>
