@@ -18,20 +18,18 @@
             android:id="@+id/textView"
             android:layout_width="343dp"
             android:layout_height="67dp"
-            android:layout_marginTop="16dp"
-            android:drawableLeft="@drawable/ic_baseline_arrow_back_24"
+            android:layout_marginTop="24dp"
             android:drawablePadding="10dp"
             android:gravity="center"
             android:text="@string/reg_as_res"
             android:textColor="@color/white"
             android:textSize="25dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.068"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName"
+            android:id="@+id/resname"
             android:layout_width="293dp"
             android:layout_height="48dp"
             android:layout_marginBottom="1dp"
@@ -41,14 +39,14 @@
             android:hint="@string/res_name"
             android:importantForAutofill="no"
             android:inputType="textPersonName"
-            app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName2"
+            app:layout_constraintBottom_toTopOf="@+id/restype"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView"
             app:layout_constraintVertical_bias="0.0" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName2"
+            android:id="@+id/restype"
             android:layout_width="293dp"
             android:layout_height="48dp"
             android:layout_marginTop="1dp"
@@ -59,13 +57,13 @@
             android:hint="@string/res_type"
             android:importantForAutofill="no"
             android:inputType="textPersonName"
-            app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName3"
+            app:layout_constraintBottom_toTopOf="@+id/resloc"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+            app:layout_constraintTop_toBottomOf="@+id/resname" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName3"
+            android:id="@+id/resloc"
             android:layout_width="293dp"
             android:layout_height="48dp"
             android:layout_marginTop="1dp"
@@ -76,13 +74,13 @@
             android:hint="@string/res_loc"
             android:importantForAutofill="no"
             android:inputType="textPersonName"
-            app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName4"
+            app:layout_constraintBottom_toTopOf="@+id/resphone"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+            app:layout_constraintTop_toBottomOf="@+id/restype" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName4"
+            android:id="@+id/resphone"
             android:layout_width="293dp"
             android:layout_height="48dp"
             android:layout_marginTop="1dp"
@@ -93,104 +91,92 @@
             android:hint="@string/res_phone"
             android:importantForAutofill="no"
             android:inputType="textPersonName"
-            app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName5"
+            app:layout_constraintBottom_toTopOf="@+id/resemail"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
+            app:layout_constraintTop_toBottomOf="@+id/resloc" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName5"
+            android:id="@+id/resemail"
             android:layout_width="293dp"
             android:layout_height="48dp"
             android:layout_marginTop="1dp"
-            android:layout_marginBottom="1dp"
+            android:layout_marginBottom="5dp"
             android:background="@drawable/edit_text_border"
-            android:textColorHint="@color/white"
             android:ems="10"
             android:hint="@string/res_email"
             android:importantForAutofill="no"
-            android:inputType="textPersonName"
-            app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName6"
+            android:inputType="textEmailAddress"
+            android:textColorHint="@color/white"
+            app:layout_constraintBottom_toTopOf="@+id/resun"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName4" />
+            app:layout_constraintTop_toBottomOf="@+id/resphone" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName6"
+            android:id="@+id/resun"
             android:layout_width="293dp"
             android:layout_height="48dp"
-            android:layout_marginTop="1dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/edit_text_border"
+            android:ems="10"
+            android:hint="@string/enter_res_uname"
+            android:importantForAutofill="no"
+            android:inputType="textEmailAddress"
+            android:textColorHint="@color/white"
+            app:layout_constraintBottom_toTopOf="@+id/respw"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.508"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/resemail" />
+
+        <EditText
+            android:id="@+id/respw"
+            android:layout_width="293dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="5dp"
             android:layout_marginBottom="1dp"
             android:background="@drawable/edit_text_border"
-            android:textColorHint="@color/white"
             android:ems="10"
             android:hint="@string/enter_pass"
             android:importantForAutofill="no"
             android:inputType="textPersonName"
-            app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName7"
+            android:textColorHint="@color/white"
+            app:layout_constraintBottom_toTopOf="@+id/resrepw"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName5" />
+            app:layout_constraintTop_toBottomOf="@+id/resun" />
 
 
         <EditText
-            android:id="@+id/editTextTextPersonName9"
+            android:id="@+id/resrepw"
             android:layout_width="293dp"
             android:layout_height="48dp"
-            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
             android:background="@drawable/edit_text_border"
-            android:drawableRight="@drawable/ic_baseline_add_24"
-            android:textColorHint="@color/white"
-            android:drawablePadding="40dp"
-            android:ems="10"
-            android:hint="@string/upload_logo"
-            android:importantForAutofill="no"
-            android:inputType="textPersonName"
-            app:layout_constraintBottom_toTopOf="@+id/checkBox"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.508"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName7" />
-
-        <EditText
-            android:id="@+id/editTextTextPersonName7"
-            android:layout_width="293dp"
-            android:layout_height="48dp"
-            android:layout_marginTop="1dp"
-            android:layout_marginBottom="10dp"
-            android:background="@drawable/edit_text_border"
-            android:textColorHint="@color/white"
             android:ems="10"
             android:hint="@string/re_enter_pass"
             android:importantForAutofill="no"
             android:inputType="textPersonName"
-            app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName9"
+            android:textColorHint="@color/white"
+            app:layout_constraintBottom_toTopOf="@+id/btnregsign"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.508"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName6" />
+            app:layout_constraintTop_toBottomOf="@+id/respw" />
 
         <Button
-            android:id="@+id/button"
-            android:layout_width="279dp"
+            android:id="@+id/btnregsign"
+            android:layout_width="293dp"
             android:layout_height="59dp"
-            android:layout_marginBottom="2dp"
+            android:layout_marginBottom="10dp"
             android:backgroundTint="@color/btn_orange"
             android:text="@string/sign_up"
             android:textSize="20dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.446"
-            app:layout_constraintStart_toStartOf="parent" />
-
-        <CheckBox
-            android:id="@+id/checkBox"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="1dp"
-            android:text="@string/t_and_c"
-            app:layout_constraintBottom_toTopOf="@+id/button"
-            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.508"
             app:layout_constraintStart_toStartOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>

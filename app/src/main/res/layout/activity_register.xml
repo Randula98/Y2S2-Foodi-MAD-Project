@@ -20,15 +20,14 @@
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="30dp"
-            android:drawableLeft="@drawable/ic_baseline_arrow_back_24"
+            android:layout_marginTop="40dp"
             android:drawablePadding="100dp"
             android:gravity="center"
             android:text="@string/reg"
             android:textColor="@color/white"
             android:textSize="25dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.071"
+            app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -36,7 +35,7 @@
             android:id="@+id/btncusimg"
             android:layout_width="317dp"
             android:layout_height="161dp"
-            android:layout_marginTop="92dp"
+            android:layout_marginTop="56dp"
             android:drawableTop="@drawable/customer"
             android:text="@string/button"
             android:textColor="#DD2C00"
@@ -70,7 +69,7 @@
             app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.899" />
+            app:layout_constraintVertical_bias="0.927" />
 
         <ImageButton
             android:id="@+id/btnimgres"
@@ -79,10 +78,9 @@
             android:contentDescription="@string/reg_as_res"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.51"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/btncus"
-            app:layout_constraintVertical_bias="0.34"
+            app:layout_constraintVertical_bias="0.194"
             app:srcCompat="@drawable/restaurent"
             tools:ignore="ImageContrastCheck" />
 
