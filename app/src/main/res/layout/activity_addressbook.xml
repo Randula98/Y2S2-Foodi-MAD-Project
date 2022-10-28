@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gray">
+
+
+    <Button
+        android:id="@+id/button_x"
+        android:layout_width="142dp"
+        android:layout_height="93dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="78dp"
+        android:layout_marginBottom="1407dp"
+        android:backgroundTint="#404040"
+        android:text="Label"
+        android:drawableRight="@drawable/ic_baseline_arrow_drop_down_24"
+        android:drawableTint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/add_book"
+        android:layout_width="928dp"
+        android:layout_height="89dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:drawableLeft="@drawable/ic_baseline_arrow_back_24"
+        android:drawableRight="@drawable/ic_baseline_menu_24"
+        android:drawableTint="@color/black"
+        android:gravity="center"
+        android:text="Address Book"
+        android:textColor="@color/black"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="827dp"
+        android:layout_height="91dp"
+        android:layout_below="@id/add_book"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="97dp"
+        android:layout_marginEnd="75dp"
+        android:background="#7A616060"
+        android:hint="Type Your Address"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="#333333"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="457dp"
+        android:layout_height="75dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="438dp"
+        android:layout_marginBottom="1268dp"
+        android:text="Near by You"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
