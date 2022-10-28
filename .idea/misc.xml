@@ -3,22 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/GitHub/Y2S2-Foodi-MAD-Project/app/src/main/res/layout/activity_addfood.xml" value="0.27291666666666664" />
-        <entry key="..\:/GitHub/Y2S2-Foodi-MAD-Project/app/src/main/res/layout/activity_allorders.xml" value="0.271875" />
-        <entry key="..\:/GitHub/Y2S2-Foodi-MAD-Project/app/src/main/res/layout/activity_edit_feedback.xml" value="0.271875" />
-        <entry key="..\:/GitHub/Y2S2-Foodi-MAD-Project/app/src/main/res/layout/activity_my_order.xml" value="0.27291666666666664" />
-        <entry key="..\:/GitHub/Y2S2-Foodi-MAD-Project/app/src/main/res/layout/activity_previous_orders.xml" value="0.271875" />
         <entry key="..\:/Github/Y2S2-Foodi-MAD-Project/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.124" />
         <entry key="..\:/Github/Y2S2-Foodi-MAD-Project/app/src/main/res/drawable/ic_launcher_background.xml" value="0.124" />
         <entry key="..\:/Github/Y2S2-Foodi-MAD-Project/app/src/main/res/layout/activity_addfood.xml" value="0.25416666666666665" />
         <entry key="..\:/Github/Y2S2-Foodi-MAD-Project/app/src/main/res/layout/activity_addressbook.xml" value="0.2" />
+        <entry key="..\:/Github/Y2S2-Foodi-MAD-Project/app/src/main/res/layout/activity_allorders.xml" value="0.25416666666666665" />
         <entry key="..\:/Github/Y2S2-Foodi-MAD-Project/app/src/main/res/layout/activity_card_paymets.xml" value="0.25416666666666665" />
         <entry key="..\:/Github/Y2S2-Foodi-MAD-Project/app/src/main/res/layout/activity_cart.xml" value="0.25416666666666665" />
-        <entry key="..\:/Github/Y2S2-Foodi-MAD-Project/app/src/main/res/layout/activity_checkout.xml" value="0.253125" />
         <entry key="..\:/Github/Y2S2-Foodi-MAD-Project/app/src/main/res/layout/activity_customer_dashboard.xml" value="0.25416666666666665" />
         <entry key="..\:/Github/Y2S2-Foodi-MAD-Project/app/src/main/res/layout/activity_customer_update.xml" value="0.25416666666666665" />
         <entry key="..\:/Github/Y2S2-Foodi-MAD-Project/app/src/main/res/layout/activity_dashboard.xml" value="0.25416666666666665" />
-        <entry key="..\:/Github/Y2S2-Foodi-MAD-Project/app/src/main/res/layout/activity_edit_address.xml" value="0.253125" />
         <entry key="..\:/Github/Y2S2-Foodi-MAD-Project/app/src/main/res/layout/activity_editfood.xml" value="0.253125" />
         <entry key="..\:/Github/Y2S2-Foodi-MAD-Project/app/src/main/res/layout/activity_foodl_ist.xml" value="0.25416666666666665" />
         <entry key="..\:/Github/Y2S2-Foodi-MAD-Project/app/src/main/res/layout/activity_home.xml" value="0.25416666666666665" />
