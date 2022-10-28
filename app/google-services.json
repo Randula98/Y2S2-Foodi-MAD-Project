@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "217337169525",
+    "project_id": "foodi-5f9d1",
+    "storage_bucket": "foodi-5f9d1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:217337169525:android:fc4c2500a79fd039205a3c",
+        "android_client_info": {
+          "package_name": "com.example.mad"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "217337169525-d2n748e0757t9ihsb8i1v97plpdedhki.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBLmaIYrnGoPNFHbCIAqlcGt0x9D2npCI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "217337169525-d2n748e0757t9ihsb8i1v97plpdedhki.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

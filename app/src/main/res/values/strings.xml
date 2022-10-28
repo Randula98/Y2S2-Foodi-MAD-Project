@@ -13,6 +13,8 @@
     <string name ="cus_name">Customer Name</string>
     <string name ="cus_phone">Customer Phone</string>
     <string name ="cus_email">Customer Email</string>
+    <string name ="enter_cus_uname">Customer Username</string>
+    <string name ="enter_res_uname">Restaurent Username</string>
     <string name ="upload_profile_pic">Upload Profile Picture</string>
     <string name ="email">Email</string>
     <string name ="pass">Password</string>
@@ -25,6 +27,7 @@
     <string name ="res_phone">Restaurant Phone</string>
     <string name ="res_email">Restaurant Email</string>
     <string name="button">Button</string>
+    <string name="username">Username</string>
     <string name="upload_logo">Upload Restaurant Logo</string>
 
     <string name="greet">Hello!!! Nick</string>
