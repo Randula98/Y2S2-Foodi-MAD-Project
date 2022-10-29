@@ -5,27 +5,53 @@
     android:layout_height="match_parent"
     android:background="@drawable/gray">
 
-    <TextView
-        android:id="@+id/text7"
-        android:layout_width="wrap_content"
-        android:layout_height="30dp"
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="68dp"
+        android:layout_height="106dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="193dp"
-        android:drawableLeft="@drawable/ic_baseline_edit_24"
-        android:drawableRight="@drawable/ic_baseline_delete_outline_24" />
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="53dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/money" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="68dp"
+        android:layout_height="106dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="53dp"
+        android:layout_marginBottom="53dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/amount" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="193dp"
+        android:layout_height="170dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginBottom="211dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.593"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/completed" />
 
     <TextView
         android:id="@+id/res_dash"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="20dp"
-        android:drawableLeft="@drawable/ic_baseline_arrow_back_24"
-        android:drawableRight="@drawable/ic_baseline_menu_24"
         android:drawableTint="@color/black"
         android:gravity="center"
         android:text="@string/res_dash"
@@ -33,177 +59,87 @@
         android:textSize="22dp"
         android:textStyle="bold" />
 
-
-    <TextView
-        android:id="@+id/res_name"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/res_dash"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="-39dp"
-        android:layout_marginEnd="10dp"
-        android:layout_marginBottom="710dp"
-        android:gravity="center"
-        android:text="@string/res_name_ex"
-        android:textColor="@color/black"
-        android:textSize="25dp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/text"
-        android:layout_width="match_parent"
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="27dp"
-        android:layout_marginTop="204dp"
-        android:layout_marginEnd="82dp"
-        android:layout_marginBottom="497dp"
-        android:drawableLeft="@drawable/ic_baseline_info_24"
-        android:drawablePadding="-35dp"
-        android:drawableTint="#EF0E0E"
-        android:gravity="center"
-        android:text="@string/text"
-        android:textColor="@color/black"
-        android:textSize="20dp"
-        android:textStyle="bold" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="101dp"
-        android:layout_height="101dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="277dp"
-        android:layout_marginBottom="553dp"
-        app:srcCompat="@drawable/pizzahut" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="-4dp"
+        android:layout_marginTop="-78dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="363dp"
+        app:srcCompat="@drawable/resdash" />
 
     <Button
-        android:id="@+id/view_btn"
-        android:layout_width="wrap_content"
+        android:id="@+id/btnup"
+        android:layout_width="174dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="38dp"
-        android:layout_marginBottom="490dp"
-        android:backgroundTint="#E3E0E0"
-        android:text="@string/view_btn"
-        android:textColor="#FF5722"
-        android:textSize="18dp"
-        android:textStyle="bold" />
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="438dp"
+        android:backgroundTint="@color/btn_orange"
+        android:text="@string/update_profile"
+        android:textColor="@color/white" />
 
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="wrap_content"
-        android:layout_height="116dp"
+    <Button
+        android:id="@+id/additems"
+        android:layout_width="174dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="263dp"
-        android:layout_marginBottom="350dp"
-        app:srcCompat="@drawable/sup" />
-
-    <TextView
-        android:id="@+id/text1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="19dp"
-        android:layout_marginBottom="436dp"
-        android:text="@string/text1"
-        android:textColor="@color/black"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/res_name_ex"
-        android:layout_width="213dp"
-        android:layout_height="58dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="21dp"
-        android:layout_marginBottom="568dp"
-        android:text="Pizza Hut"
-        android:textColor="@color/black"
-        android:textSize="34sp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/text4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="37dp"
-        android:layout_marginBottom="268dp"
-        android:text="@string/text4"
-        android:textColor="@color/black"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/text2"
-        android:layout_width="223dp"
-        android:layout_height="60dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="24dp"
-        android:layout_marginBottom="370dp"
-        android:text="@string/text2"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/text5"
-        android:layout_width="223dp"
-        android:layout_height="60dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="12dp"
-        android:layout_marginBottom="204dp"
-        android:text="@string/text5"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/text3"
-        android:layout_width="wrap_content"
-        android:layout_height="30dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="346dp"
-        android:drawableLeft="@drawable/ic_baseline_edit_24"
-        android:drawableRight="@drawable/ic_baseline_delete_outline_24" />
-
-    <ImageView
-        android:id="@+id/image7"
-        android:layout_width="117dp"
-        android:layout_height="117dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="269dp"
-        android:layout_marginBottom="188dp"
-        app:srcCompat="@drawable/bbq" />
+        android:layout_marginStart="19dp"
+        android:layout_marginEnd="218dp"
+        android:layout_marginBottom="440dp"
+        android:backgroundTint="@color/btn_orange"
+        android:text="@string/add_food"
+        android:textColor="@color/white" />
 
     <Button
-        android:id="@+id/add_item"
-        android:layout_width="wrap_content"
+        android:id="@+id/viewitems"
+        android:layout_width="174dp"
         android:layout_height="wrap_content"
-        android:layout_below="@id/image7"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="-100dp"
-        android:layout_marginEnd="38dp"
-        android:layout_marginBottom="20dp"
-        android:backgroundTint="#FF7700"
-        android:text="@string/add_item"
-        android:textColor="@color/white"
-        android:textSize="15dp"
-        android:textStyle="bold" />
+        android:layout_marginStart="116dp"
+        android:layout_marginEnd="121dp"
+        android:layout_marginBottom="385dp"
+        android:backgroundTint="@color/btn_orange"
+        android:text="@string/view_food"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="168dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="165dp"
+        android:layout_toStartOf="@+id/button14"
+        android:backgroundTint="@color/btn_orange"
+        android:text="@string/res_order"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="174dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="160dp"
+        android:backgroundTint="@color/btn_orange"
+        android:text="@string/comp_orders"
+        android:textColor="@color/white" />
 
 
 </RelativeLayout>

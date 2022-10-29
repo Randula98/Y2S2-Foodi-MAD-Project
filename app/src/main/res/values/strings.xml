@@ -18,6 +18,7 @@
     <string name ="upload_profile_pic">Upload Profile Picture</string>
     <string name ="email">Email</string>
     <string name ="pass">Password</string>
+    <string name ="view_dash">Dashboard</string>
     <string name ="enter_pass">Enter Password</string>
     <string name ="re_enter_pass">Re-Enter Password</string>
     <string name ="t_and_c">I accept all the terms and conditions</string>
@@ -29,6 +30,8 @@
     <string name="button">Button</string>
     <string name="username">Username</string>
     <string name="upload_logo">Upload Restaurant Logo</string>
+    <string name ="upload_profile">Update Profile</string>
+    <string name ="save">Save</string>
 
     <string name="greet">Hello!!! Nick</string>
     <string name="order">Order Your Favourites</string>
@@ -81,7 +84,8 @@
     <string name="add_cart">Add To Cart</string>
     <string name="choose_food">Choose the food you love</string>
 
-    <string name="add_food">ADD FOOD</string>
+    <string name="add_food">Add Items</string>
+    <string name="view_food">View Items</string>
     <string name="name">Name</string>
     <string name="cat">Category</string>
     <string name="cal">Calories</string>
@@ -134,7 +138,8 @@
     <string name="Track_My_Delivery">Track My Delivery  -></string>
     <string name="Save">Save</string>
     <string name="Delivered">Delivered</string>
-
+    <string name="txt_View">Update Restaurant Details</string>
+    <string name="btnsave">SAVE</string>
     <string name="Edit_your_feedback_hear">Edit your feedback hear</string>
 
 </resources>
