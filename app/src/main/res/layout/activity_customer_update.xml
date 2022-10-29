@@ -18,15 +18,14 @@
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="28dp"
-            android:drawableLeft="@drawable/ic_baseline_arrow_back_24"
+            android:layout_marginTop="32dp"
             android:drawablePadding="40dp"
             android:gravity="center"
             android:text="@string/update_cus"
             android:textColor="@color/white"
             android:textSize="25dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.197"
+            app:layout_constraintHorizontal_bias="0.496"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -38,90 +37,93 @@
             android:layout_marginBottom="41dp"
             android:background="@drawable/profile_picture_view"
             android:src="@drawable/user"
-            app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName"
+            app:layout_constraintBottom_toTopOf="@+id/cusname"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView"
             tools:srcCompat="@drawable/user" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName"
+            android:id="@+id/cusname"
             android:layout_width="293dp"
             android:layout_height="48dp"
-            android:layout_marginTop="41dp"
+            android:layout_marginBottom="20dp"
             android:background="@drawable/edit_text_border"
             android:ems="10"
             android:hint="@string/cus_name"
             android:importantForAutofill="no"
             android:inputType="textPersonName"
             android:textColorHint="@color/white"
+            app:layout_constraintBottom_toTopOf="@+id/cusphone"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName2"
+            android:id="@+id/cusphone"
             android:layout_width="293dp"
             android:layout_height="48dp"
-            android:layout_marginTop="42dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
             android:background="@drawable/edit_text_border"
             android:ems="10"
             android:hint="@string/cus_phone"
             android:importantForAutofill="no"
             android:inputType="textPersonName"
             android:textColorHint="@color/white"
+            app:layout_constraintBottom_toTopOf="@+id/cusemail"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.508"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+            app:layout_constraintTop_toBottomOf="@+id/cusname" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName3"
+            android:id="@+id/cusemail"
             android:layout_width="293dp"
             android:layout_height="48dp"
-            android:layout_marginTop="48dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
             android:background="@drawable/edit_text_border"
             android:ems="10"
             android:hint="@string/cus_email"
             android:importantForAutofill="no"
             android:inputType="textPersonName"
             android:textColorHint="@color/white"
+            app:layout_constraintBottom_toTopOf="@+id/cuspw"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+            app:layout_constraintTop_toBottomOf="@+id/cusphone" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName9"
+            android:id="@+id/cuspw"
             android:layout_width="293dp"
             android:layout_height="48dp"
-            android:layout_marginTop="35dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="40dp"
             android:background="@drawable/edit_text_border"
-            android:drawableRight="@drawable/ic_baseline_add_24"
-            android:drawablePadding="40dp"
             android:ems="10"
-            android:hint="@string/upload_profile_pic"
+            android:hint="@string/enter_pass"
             android:importantForAutofill="no"
             android:inputType="textPersonName"
             android:textColorHint="@color/white"
+            app:layout_constraintBottom_toTopOf="@+id/savebtn"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.508"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
+            app:layout_constraintTop_toBottomOf="@+id/cusemail" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/savebtn"
             android:layout_width="279dp"
             android:layout_height="59dp"
-            android:layout_marginTop="89dp"
             android:layout_marginBottom="25dp"
             android:backgroundTint="@color/btn_orange"
-            android:text="@string/sign_up"
+            android:text="@string/save"
             android:textSize="20dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.446"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName9" />
+            app:layout_constraintTop_toBottomOf="@+id/cuspw" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </LinearLayout>
