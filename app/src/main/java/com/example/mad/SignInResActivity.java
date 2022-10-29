@@ -1,6 +1,7 @@
 package com.example.mad;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -20,6 +21,9 @@ import com.google.firebase.database.ValueEventListener;
 public class SignInResActivity extends AppCompatActivity {
 
     DatabaseReference dbref = FirebaseDatabase.getInstance().getReferenceFromUrl("https://foodi-5f9d1-default-rtdb.firebaseio.com/");
+
+    public static final String SHARED_PREFS = "sharedPrefs";
+    public static final String TEXT = "text";
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -52,6 +56,7 @@ public class SignInResActivity extends AppCompatActivity {
 
                                 if(getPW.equals(pwtxt)){
                                     Toast.makeText(SignInResActivity.this , "Successfully Logged In" , Toast.LENGTH_SHORT).show();
+                                    saveData(untxt);
                                     startActivity(new Intent(SignInResActivity.this , RestaurantDashboardActivity.class));
                                     finish();
                                 }
@@ -73,5 +78,13 @@ public class SignInResActivity extends AppCompatActivity {
                 }
             }
         });
+    }
+
+    public void saveData(String un){
+        SharedPreferences sp = getSharedPreferences(SHARED_PREFS , MODE_PRIVATE);
+        SharedPreferences.Editor ed = sp.edit();
+
+        ed.putString(TEXT , un.toString());
+        ed.apply();
     }
 }
