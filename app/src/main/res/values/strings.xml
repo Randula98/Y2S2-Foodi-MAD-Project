@@ -13,6 +13,8 @@
     <string name ="cus_name">Customer Name</string>
     <string name ="cus_phone">Customer Phone</string>
     <string name ="cus_email">Customer Email</string>
+    <string name ="enter_cus_uname">Customer Username</string>
+    <string name ="enter_res_uname">Restaurent Username</string>
     <string name ="upload_profile_pic">Upload Profile Picture</string>
     <string name ="email">Email</string>
     <string name ="pass">Password</string>
@@ -25,6 +27,7 @@
     <string name ="res_phone">Restaurant Phone</string>
     <string name ="res_email">Restaurant Email</string>
     <string name="button">Button</string>
+    <string name="username">Username</string>
     <string name="upload_logo">Upload Restaurant Logo</string>
 
     <string name="greet">Hello!!! Nick</string>
@@ -111,6 +114,11 @@
     <string name="button4">Delete</string>
     <string name="txt13">Order ID-0023667789</string>
     <string name="edit_food">EDIT FOOD ITEM</string>
+    <string name="add_book">Address Book</string>
+    <string name="address">Type Your Address</string>
+    <string name="button_x">Label</string>
+    <string name="textView37">Near by You</string>
+
 
     <string name="Thick_Cut_Fries">Thick Cut Fries</string>
     <string name="Feedbacks">Feedbacks</string>
