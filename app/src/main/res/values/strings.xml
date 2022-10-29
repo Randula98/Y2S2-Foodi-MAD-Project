@@ -138,7 +138,8 @@
     <string name="Track_My_Delivery">Track My Delivery  -></string>
     <string name="Save">Save</string>
     <string name="Delivered">Delivered</string>
-
+    <string name="txt_View">Update Restaurant Details</string>
+    <string name="btnsave">SAVE</string>
     <string name="Edit_your_feedback_hear">Edit your feedback hear</string>
 
 </resources>
