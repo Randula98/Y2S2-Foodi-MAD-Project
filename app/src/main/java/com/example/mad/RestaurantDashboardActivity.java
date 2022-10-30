@@ -35,7 +35,11 @@ public class RestaurantDashboardActivity extends AppCompatActivity {
     }
 
     public void openResUpdate(){
-        // Intent intent = new Intent((this , Res)
+//        Intent intent = new Intent(this , RestaurantUpdateActivity.class);
+//        startActivity(intent);
+        Intent intent = new Intent(this , RestaurantUpdateActivity.class);
+        startActivity(intent);
+
     }
 
     public void loadData(){
