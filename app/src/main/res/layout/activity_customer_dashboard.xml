@@ -118,8 +118,11 @@
         android:layout_width="68dp"
         android:layout_height="106dp"
         android:layout_marginStart="32dp"
+        android:layout_marginEnd="224dp"
+        android:layout_marginBottom="42dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView24"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/amount"
-        tools:layout_editor_absoluteY="583dp" />
+        app:srcCompat="@drawable/amount" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
