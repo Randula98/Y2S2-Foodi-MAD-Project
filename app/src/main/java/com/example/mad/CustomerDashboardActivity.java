@@ -11,6 +11,8 @@ import androidx.appcompat.app.AppCompatActivity;
 public class CustomerDashboardActivity extends AppCompatActivity {
 
     private Button btnup;
+    private Button btnaddfd;
+    private Button btnaddadd;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -24,10 +26,37 @@ public class CustomerDashboardActivity extends AppCompatActivity {
                 openCustomerUpdateActivity();
             }
         });
+
+        btnaddfd = (Button) findViewById(R.id.btnaddfeedback);
+        btnaddfd.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openAddFeedbackActivity();
+            }
+        });
+
+        btnaddadd = (Button) findViewById(R.id.btnaddaddress);
+        btnaddadd.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openAddAddressActivity();
+            }
+        });
+
+    }
+
+    public void openAddAddressActivity(){
+        Intent intent = new Intent(this , AddAddressActivity.class);
+        startActivity(intent);
     }
 
     public void openCustomerUpdateActivity(){
         Intent intent = new Intent(this , CustomerUpdateActivity.class);
+        startActivity(intent);
+    }
+
+    public void openAddFeedbackActivity(){
+        Intent intent = new Intent(this , AddFeedbackActivity.class);
         startActivity(intent);
     }
 }

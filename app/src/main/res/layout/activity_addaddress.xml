@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:visibility="visible">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#44FFFFFF"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="343dp"
+            android:layout_height="67dp"
+            android:layout_marginTop="24dp"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:text="Add Address"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <EditText
+            android:id="@+id/addno"
+            android:layout_width="293dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="48dp"
+            android:background="@drawable/edit_text_border"
+            android:ems="10"
+            android:hint="Address Number"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:textColorHint="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <EditText
+            android:id="@+id/addtown"
+            android:layout_width="293dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="220dp"
+            android:background="@drawable/edit_text_border"
+            android:ems="10"
+            android:hint="Address Town"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:textColorHint="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <EditText
+            android:id="@+id/addcity"
+            android:layout_width="293dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="312dp"
+            android:background="@drawable/edit_text_border"
+            android:ems="10"
+            android:hint="Address City"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:textColorHint="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <EditText
+            android:id="@+id/addroad"
+            android:layout_width="293dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="132dp"
+            android:background="@drawable/edit_text_border"
+            android:ems="10"
+            android:hint="Address Road"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:textColorHint="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.508"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <Button
+            android:id="@+id/btnadd"
+            android:layout_width="293dp"
+            android:layout_height="59dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/btn_orange"
+            android:text="Add Address"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.508"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

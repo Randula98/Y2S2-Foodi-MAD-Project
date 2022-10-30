@@ -18,9 +18,8 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
-public class AddItemActivity extends AppCompatActivity {
+public class AddFeedbackActivity extends AppCompatActivity {
 
-    //firebase object
     DatabaseReference dbref = FirebaseDatabase.getInstance().getReferenceFromUrl("https://foodi-5f9d1-default-rtdb.firebaseio.com/");
     public static final String SHARED_PREFS = "sharedPrefs";
     public static final String TEXT = "text";
@@ -29,38 +28,40 @@ public class AddItemActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_addfood);
+        setContentView(R.layout.activity_addfeedback);
 
-        final EditText foodname = findViewById(R.id.foodname);
-        final EditText foodprice = findViewById(R.id.foodprice);
-        final EditText foodweight = findViewById(R.id.foodwieght);
+        final EditText fdover = findViewById(R.id.fdover);
+        final EditText fdtype = findViewById(R.id.fdtype);
+        final EditText fddesc = findViewById(R.id.fddesc);
+        final EditText fdrating = findViewById(R.id.fdrating);
 
         final Button btnadd = findViewById(R.id.btnadd);
 
         btnadd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
-                final String foodnametxt = foodname.getText().toString();
-                final String foodpricetxt = foodprice.getText().toString();
-                final String foodweighttxt = foodweight.getText().toString();
+                final String fdovertxt = fdover.getText().toString();
+                final String fdtypetxt = fdtype.getText().toString();
+                final String fddesctxt = fddesc.getText().toString();
+                final String fdratingtxt = fdrating.getText().toString();
                 loadData();
 
-                boolean isCheck = foodnametxt.isEmpty() || foodpricetxt.isEmpty() || foodweighttxt.isEmpty();
+                boolean isCheck = fdovertxt.isEmpty() || fdtypetxt.isEmpty() || fddesctxt.isEmpty() || fdratingtxt.isEmpty();
 
                 if(isCheck){
-                    Toast.makeText(AddItemActivity.this , "Please Fill All The Details" , Toast.LENGTH_SHORT).show();
+                    Toast.makeText(AddFeedbackActivity.this , "Please Fill All The Details" , Toast.LENGTH_SHORT).show();
                 }
-                else {
-                    dbref.child("Food").addListenerForSingleValueEvent(new ValueEventListener() {
+                else{
+                    dbref.child("Feedback").addListenerForSingleValueEvent(new ValueEventListener() {
                         @Override
                         public void onDataChange(@NonNull DataSnapshot snapshot) {
-                            dbref.child("Food").child(sessionUNText).child(foodnametxt).child("FoodName").setValue(foodnametxt);
-                            dbref.child("Food").child(sessionUNText).child(foodnametxt).child("FoodPrice").setValue(foodpricetxt);
-                            dbref.child("Food").child(sessionUNText).child(foodnametxt).child("FoodWeight").setValue(foodweighttxt);
+                            dbref.child("Feedback").child(sessionUNText).child(fdovertxt).child("FDOver").setValue(fdovertxt);
+                            dbref.child("Feedback").child(sessionUNText).child(fdovertxt).child("FDType").setValue(fdovertxt);
+                            dbref.child("Feedback").child(sessionUNText).child(fdovertxt).child("FDDesc").setValue(fdovertxt);
+                            dbref.child("Feedback").child(sessionUNText).child(fdovertxt).child("FDRating").setValue(fdovertxt);
 
-                            Toast.makeText(AddItemActivity.this , "New Address Added Successfully" , Toast.LENGTH_SHORT).show();
-                            startActivity(new Intent(AddItemActivity.this , RestaurantDashboardActivity.class));
+                            Toast.makeText(AddFeedbackActivity.this , "New Address Added Successfully" , Toast.LENGTH_SHORT).show();
+                            startActivity(new Intent(AddFeedbackActivity.this , CustomerDashboardActivity.class));
                             finish();
                         }
 
