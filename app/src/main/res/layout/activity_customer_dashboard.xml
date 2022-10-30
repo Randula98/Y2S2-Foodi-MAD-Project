@@ -124,9 +124,9 @@
         android:id="@+id/btnviewaddress"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="29dp"
+        android:layout_marginStart="30dp"
         android:layout_marginTop="30dp"
-        android:layout_marginEnd="40dp"
+        android:layout_marginEnd="20dp"
         android:layout_marginBottom="48dp"
         android:backgroundTint="@color/btn_orange"
         android:text="View Address"
@@ -137,9 +137,8 @@
 
     <Button
         android:id="@+id/btnaddfeedback"
-        android:layout_width="153dp"
-        android:layout_height="46dp"
-        android:layout_marginStart="40dp"
+        android:layout_width="176dp"
+        android:layout_height="45dp"
         android:layout_marginTop="80dp"
         android:layout_marginEnd="24dp"
         android:layout_marginBottom="29dp"
