@@ -16,6 +16,8 @@ public class RestaurantDashboardActivity extends AppCompatActivity {
     public static final String TEXT = "text";
     private String text;
     private Button btnup;
+    private Button btnadditems;
+    private Button btnviewitems;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +34,32 @@ public class RestaurantDashboardActivity extends AppCompatActivity {
                 openResUpdate();
             }
         });
+
+        btnadditems = (Button) findViewById(R.id.additems);
+        btnadditems.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openAddItemsActivity();
+            }
+        });
+
+        btnviewitems = (Button) findViewById(R.id.viewitems);
+        btnviewitems.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openViewItemsActivity();
+            }
+        });
+    }
+
+    public void openViewItemsActivity(){
+        Intent intent = new Intent(this , AllFoodActivity.class);
+        startActivity(intent);
+    }
+
+    public void openAddItemsActivity(){
+        Intent intent = new Intent(this , AddItemActivity.class);
+        startActivity(intent);
     }
 
     public void openResUpdate(){
