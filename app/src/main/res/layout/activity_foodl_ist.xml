@@ -1,258 +1,420 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg"
-    android:visibility="visible">
+    tools:context=".MainActivity">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <LinearLayout
+        android:id="@+id/buttons_layout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#44FFFFFF"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#F1F1F1"
         android:orientation="vertical"
-        android:padding="10dp">
+        android:paddingVertical="16dp">
 
-        <ImageView
-            android:id="@+id/imageView20"
-            android:layout_width="700dp"
-            android:layout_height="4dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="22dp"
-            android:background="@color/underline"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView16" />
-
-        <ImageView
-            android:id="@+id/imageView21"
-            android:layout_width="700dp"
-            android:layout_height="4dp"
-            android:layout_marginTop="19dp"
-            android:layout_marginBottom="30dp"
-            android:background="@color/underline"
-            app:layout_constraintBottom_toTopOf="@+id/imageView30"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView19" />
-
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
-            android:drawableLeft="@drawable/ic_baseline_arrow_back_24"
-            android:drawablePadding="110dp"
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
             android:gravity="center"
+            android:orientation="horizontal">
 
-            android:textColor="@color/white"
-            android:textSize="25dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.054"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageView12"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/profile_picture_view"
+                android:src="@drawable/bbq"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.948"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:srcCompat="@drawable/bbq" />
 
-        <TextView
-            android:id="@+id/textView40"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="76dp"
-            android:text="@string/choose_food"
-            android:drawablePadding="110dp"
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/imageView3"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="5dp"
+                android:text="Chicken Pizza"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/btnup"
+                app:layout_constraintEnd_toStartOf="@+id/imageView3"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/btnPizza"
+                android:layout_width="90dp"
+                android:layout_height="48dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="39dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="20dp"
+                android:backgroundTint="#FF7700"
+                android:text="Order"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
             android:gravity="center"
+            android:orientation="horizontal">
 
-            android:textColor="@color/white"
-            android:textSize="25dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.075"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageView222"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/profile_picture_view"
+                android:src="@drawable/bbq"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.948"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:srcCompat="@drawable/bbq" />
 
-        <ImageView
-            android:id="@+id/imageView15"
-            android:layout_width="40dp"
-            android:layout_height="35dp"
-            android:layout_marginStart="97dp"
-            android:layout_marginTop="28dp"
-            android:layout_marginEnd="24dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toEndOf="@+id/textView"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/ic_baseline_menu_24" />
+            <TextView
+                android:id="@+id/textView522"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/imageView3"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="5dp"
+                android:text="BBQ Pizza      "
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/btnup"
+                app:layout_constraintEnd_toStartOf="@+id/imageView3"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
-        <ImageView
-            android:id="@+id/imageView16"
-            android:layout_width="123dp"
-            android:layout_height="123dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="32dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView40"
-            app:srcCompat="@drawable/pizza2" />
+            <Button
+                android:id="@+id/btnPizza22"
+                android:layout_width="90dp"
+                android:layout_height="48dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="39dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="20dp"
+                android:backgroundTint="#FF7700"
+                android:text="Order"
+                android:textColor="@color/white" />
 
-        <ImageView
-            android:id="@+id/imageView19"
-            android:layout_width="123dp"
-            android:layout_height="123dp"
-            android:layout_marginStart="16dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/mac" />
+        </LinearLayout>
 
-        <ImageView
-            android:id="@+id/imageView30"
-            android:layout_width="123dp"
-            android:layout_height="123dp"
-            android:layout_marginStart="24dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.799"
-            app:srcCompat="@drawable/wings" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:orientation="horizontal">
 
-        <EditText
-            android:id="@+id/editTextTextPersonName10"
-            android:layout_width="130dp"
-            android:layout_height="48dp"
-            android:layout_marginStart="109dp"
-            android:layout_marginTop="100dp"
-            android:layout_marginEnd="23dp"
-            android:layout_marginBottom="67dp"
-            android:drawableLeft="@drawable/ic_baseline_remove_24"
-            android:drawableRight="@drawable/ic_baseline_add_24"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:text="@string/one"
-            android:textAlignment="center"
-            app:layout_constraintBottom_toTopOf="@+id/imageView20"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/imageView16"
-            app:layout_constraintTop_toBottomOf="@+id/imageView15" />
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageView233"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/profile_picture_view"
+                android:src="@drawable/bbq"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.948"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:srcCompat="@drawable/bbq" />
 
-        <EditText
-            android:id="@+id/editTextTextPersonName11"
-            android:layout_width="130dp"
-            android:layout_height="48dp"
-            android:layout_marginEnd="20dp"
-            android:drawableLeft="@drawable/ic_baseline_remove_24"
-            android:drawableRight="@drawable/ic_baseline_add_24"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:text="@string/two"
-            android:textAlignment="center"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.512" />
+            <TextView
+                android:id="@+id/textView533"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/imageView3"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="5dp"
+                android:text="Veg Pizza      "
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/btnup"
+                app:layout_constraintEnd_toStartOf="@+id/imageView3"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
-        <EditText
-            android:id="@+id/editTextTextPersonName13"
-            android:layout_width="130dp"
-            android:layout_height="48dp"
-            android:layout_marginEnd="16dp"
-            android:drawableLeft="@drawable/ic_baseline_remove_24"
-            android:drawableRight="@drawable/ic_baseline_add_24"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:text="@string/two"
-            android:textAlignment="center"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.813" />
+            <Button
+                android:id="@+id/btnPizza33"
+                android:layout_width="90dp"
+                android:layout_height="48dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="39dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="20dp"
+                android:backgroundTint="#FF7700"
+                android:text="Order"
+                android:textColor="@color/white" />
 
-        <TextView
-            android:id="@+id/textView27"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
-            android:layout_marginTop="60dp"
-            android:layout_marginBottom="20dp"
-            android:text="@string/pizza"
-            android:textColor="@color/black"
-            app:layout_constraintBottom_toTopOf="@+id/textView28"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.458"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView" />
+        </LinearLayout>
 
-        <TextView
-            android:id="@+id/textView29"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
-            android:layout_marginTop="30dp"
-            android:layout_marginBottom="11dp"
-            android:text="@string/mac"
-            android:textColor="@color/black"
-            app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName11"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.611"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView20"
-            app:layout_constraintVertical_bias="1.0" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:orientation="horizontal">
 
-        <TextView
-            android:id="@+id/textView38"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="11dp"
-            android:layout_marginTop="40dp"
-            android:layout_marginEnd="151dp"
-            android:text="@string/wings"
-            android:textColor="@color/black"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/imageView30"
-            app:layout_constraintTop_toBottomOf="@+id/imageView21" />
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageView244"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/profile_picture_view"
+                android:src="@drawable/bbq"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.948"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:srcCompat="@drawable/bbq" />
 
-        <TextView
-            android:id="@+id/textView28"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
-            android:layout_marginTop="40dp"
-            android:layout_marginBottom="37dp"
-            android:text="@string/pizza_price"
-            android:textColor="@color/black"
-            app:layout_constraintBottom_toTopOf="@+id/imageView20"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.442"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView27" />
+            <TextView
+                android:id="@+id/textView544"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/imageView3"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="5dp"
+                android:text="Fish Pizza     "
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/btnup"
+                app:layout_constraintEnd_toStartOf="@+id/imageView3"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
-        <TextView
-            android:id="@+id/textView30"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
-            android:layout_marginTop="40dp"
-            android:layout_marginBottom="20dp"
-            android:text="@string/mac_price"
-            android:textColor="@color/black"
-            app:layout_constraintBottom_toTopOf="@+id/imageView21"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.429"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView29"
-            app:layout_constraintVertical_bias="0.576" />
+            <Button
+                android:id="@+id/btnPizza44"
+                android:layout_width="90dp"
+                android:layout_height="48dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="39dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="20dp"
+                android:backgroundTint="#FF7700"
+                android:text="Order"
+                android:textColor="@color/white" />
 
-        <TextView
-            android:id="@+id/textView39"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="15dp"
-            android:layout_marginTop="69dp"
-            android:layout_marginEnd="37dp"
-            android:layout_marginBottom="133dp"
-            android:text="@string/wings_price"
-            android:textColor="@color/black"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName13"
-            app:layout_constraintStart_toEndOf="@+id/imageView30"
-            app:layout_constraintTop_toBottomOf="@+id/textView38" />
+        </LinearLayout>
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
-</LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageView255"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/profile_picture_view"
+                android:src="@drawable/bbq"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.948"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:srcCompat="@drawable/bbq" />
+
+            <TextView
+                android:id="@+id/textView555"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/imageView3"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="5dp"
+                android:text="Beef Pizza    "
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/btnup"
+                app:layout_constraintEnd_toStartOf="@+id/imageView3"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/btnPizza55"
+                android:layout_width="90dp"
+                android:layout_height="48dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="39dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="20dp"
+                android:backgroundTint="#FF7700"
+                android:text="Order"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageView266"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/profile_picture_view"
+                android:src="@drawable/bbq"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.948"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:srcCompat="@drawable/bbq" />
+
+            <TextView
+                android:id="@+id/textView566"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/imageView3"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="5dp"
+                android:text="Pork Pizza   "
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/btnup"
+                app:layout_constraintEnd_toStartOf="@+id/imageView3"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/btnPizza66"
+                android:layout_width="90dp"
+                android:layout_height="48dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="39dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="20dp"
+                android:backgroundTint="#FF7700"
+                android:text="Order"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageView277"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/profile_picture_view"
+                android:src="@drawable/bbq"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.948"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:srcCompat="@drawable/bbq" />
+
+            <TextView
+                android:id="@+id/textView577"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/imageView3"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="5dp"
+                android:text="Prawn Pizza"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/btnup"
+                app:layout_constraintEnd_toStartOf="@+id/imageView3"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/btnPizza77"
+                android:layout_width="90dp"
+                android:layout_height="48dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="39dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="20dp"
+                android:backgroundTint="#FF7700"
+                android:text="Order"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

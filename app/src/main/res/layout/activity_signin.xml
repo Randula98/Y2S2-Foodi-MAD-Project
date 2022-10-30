@@ -47,8 +47,9 @@
             android:layout_width="160dp"
             android:layout_height="65dp"
             android:backgroundTint="#FF7700"
-            android:text="@string/sign_as_cus"
             android:textColor="@color/white"
+            android:text="@string/sign_as_cus"
+
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"
